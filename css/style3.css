@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #666;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+}
+
+
+.header {height: 80px;
+}
+
+.header{background: url(../images/headerglitter.jpg) center top;}
+
+
+.headerin{width: 1320px;
+margin: auto;
+position: relative;}
+
+.logo{
+display: block;
+float: left;
+margin: 20px 0;
+}
+
+.headerin ul{float: right;
+position: absolute;
+right: 100px;
+}
+
+.headerin ul .zz{float: left;
+padding: 30px 0 20px 40px;}
+
+.headerin ul .yy{float: left;
+padding: 20px 0 20px 40px;
+}

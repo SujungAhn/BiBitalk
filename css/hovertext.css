@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'paybooc-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Monument";
+  src: url("https://res.cloudinary.com/holatresveces/raw/upload/v1573001944/MonumentExtended-Ultrabold_clzvv7.otf");
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  font-family: "Capuche Trial";
+  font-size: 80px;
+  line-height: 70px;
+  background: #db8be6;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  outline: 1px transparent;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.menu {
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(123, 87, 252);
+}
