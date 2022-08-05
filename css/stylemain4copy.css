@@ -13,7 +13,8 @@ a:visited { text-decoration:none; color:#000; }
 a:hover { text-decoration:none; color:#000; }
 a:active { text-decoration:none; color:#000; }
 
-body { font-family:"나눔고딕"; 
+body {min-width: 1200px; 
+  font-family:"나눔고딕"; 
 		font-size:16px; 
 		line-height:26px; 
 		color:#000; 
@@ -248,44 +249,6 @@ padding-top: 10px;}
 
 
 .submit a:hover {filter: brightness(80%)}
-
-/*
-a.btn1{font-family: 'paybooc-Light';
-  border-radius: 50px;
-  display:block;
-  width:250px;
-  padding: 10px 0;
-  line-height:30px;
-  text-align:center;
-  background-color:rgb(182, 99, 202);
-  color:#fff;
-}
-
-button.btn1{
-  
-  width:80px;
-  height:100px;
-  border:none;
-  background-color:rgb(66, 46, 46);
-  color:#fff;
-}
-
-
-
-
-a.btn2{font-family: 'paybooc-Light';
-  border-radius: 50px;
-  display:block;
-  width:250px;
-  padding: 10px 0;
-  line-height:30px;
-  text-align:center;
-  background-color:rgb(131, 82, 196);
-  color:#fff;
-  box-shadow: 5px 5px 5px;
-}
-
-*/
 
 
 
